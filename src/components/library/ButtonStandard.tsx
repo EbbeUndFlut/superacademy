@@ -1,9 +1,9 @@
-interface ButtonStandard {
+interface IButtonStandard {
     label: string
     onclick?(): any
 }
 
-const ButtonStandard = (props: ButtonStandard) => {
+const ButtonStandard = (props: IButtonStandard) => {
     return <button>{props.label}</button>
 }
 
